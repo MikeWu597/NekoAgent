@@ -1,23 +1,23 @@
 # NekoAgent
 
-## Features
+## 功能
 
-- Allow sand duplication.
-- Prevent obsidian spikes reset.
-- Allow StoneCutter to hurt player.
-- Allow Shulkers spawn in end cities.
-- Allow player to leash villagers.
-- Send fake permission level 4 packet to player.
-- Add `/mspt <ms>` command to modify tps.
-- Modify server mod name.
+- 开启刷沙
+- 黑曜石柱不重置
+- 使切石机造成伤害
+- 使潜影贝重生
+- 允许拴住村民
+- 向玩家发送虚构的4级权限数据包
+- 添加 `/mspt <ms>` 指令，可修改tps
+- 修改服务器mod名
 
-## Usage
+## 使用
 
 ```bash
 java -javaagent:NekoAgent-1.0-SNAPSHOT.jar -jar paper.jar
 ```
 
-## Disable some features
+## 禁用功能
 
 ```bash
 java -javaagent:NekoAgent-1.0-SNAPSHOT.jar=enableSandDuplication -jar paper.jar
@@ -25,7 +25,7 @@ java -javaagent:NekoAgent-1.0-SNAPSHOT.jar=disableObsidianSpikesReset -jar paper
 java -javaagent:NekoAgent-1.0-SNAPSHOT.jar=enableStoneCutterDamage+enableShulkerSpawningInEndCities -jar paper.jar
 ```
 
-## Feature flags
+## 功能数据值
 
 - enableSandDuplication
 - disableObsidianSpikesReset
@@ -43,9 +43,10 @@ java -javaagent:NekoAgent-1.0-SNAPSHOT.jar=enableStoneCutterDamage+enableShulker
 gradlew build
 ```
 
-## Author
+## 作者
 
-Shirasawa
+原作  Shirasawa
+接坑  MikeWu597
 
 ## License
 
